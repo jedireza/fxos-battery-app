@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Battery App</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#000" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Battery <span id="percent"></span></h1>
+    <p id="charging-time">Charging time: <span class="label"></span></p>
+    <p id="discharging-time">Discharging time: <span class="label"></span></p>
+    <div id="charging-indicator">
+      <img id="charging-img"
+        src="assets/images/battery-not-charging.png"
+        alt="charging-indicator"
+        data-on="assets/images/battery-charging.png"
+        data-off="assets/images/battery-not-charging.png"
+      />
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

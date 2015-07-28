@@ -1,0 +1,16 @@
+{
+  "name": "Battery",
+  "description": "Demonstrating the BatteryManager WebAPI",
+  "version": "1.0.0",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/assets/icons/battery@1.5.png",
+    "284": "/assets/icons/battery@3.375.png"
+  },
+  "developer": {
+    "name": "Reza Akhavan",
+    "url": "https://github.com/jedireza/fxos-battery-app"
+  },
+  "orientation": "portrait",
+  "default_locale": "en"
+}
